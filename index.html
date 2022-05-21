@@ -57,27 +57,46 @@
     </ul>
 
     <table border="1"> <!--para hacer una tabla, el border es opcional para que haga el cuadradito-->
-        <tr> <!-- para hacer las FILAS-->
+        <thead> <!--el thead sirve para identificar columnas-->
+        <tr> 
             <th>MES</th> <!--las columanas-->
             <th>AHORRO</th>
         </tr>
+    </thead>
+
+    <tbody>
 
         <tr> <!-- para hacer las FILAS-->
-            <th>ENERO</th> <!--las columanas-->
-            <th>100</th>
+            <td>ENERO</td> <!--las columanas-->
+            <td>100</td>
         </tr>
 
         <tr> <!-- para hacer las FILAS-->
-            <th>FEB</th> <!--las columanas-->
-            <th>200</th>
+            <td>FEB</td> <!--las columanas-->
+            <td>200</td>
         </tr>
-    </table>
+    </tbody>
+        </table>
     
    <h1>Resultados examenes</h1>
    <p>Cerlos: <meter value="94" min="0" max="100" high="90"></meter> </p>
    <p>sdads: <meter value="80" min="0" max="100" high="90"></meter> </p>
 
+   <h1>Resultados de ventas</h1>
+   <p>Cerlos: <progress value="34" min="0" max="100" ></progress> </p>
+   <p>sdads: <progress value="20" min="0" max="100" ></progress> </p>
+
+   <figure><!--permite organizar las imagenes-->
     <img src="https://courseit-statics.nyc3.digitaloceanspaces.com/icons/logos/html-css.png" />
+   </figure> 
+   <figcaption>pie de pagina de la imagen</figcaption>
+   
+
+   <audio autoplay controls loop preload="none">
+       <!--formatos soportados:
+        Ogg VORBIS,MP3
+        -->
+   </audio>
 
     <footer>este es el pie de la pagina</footer>
 </body>
