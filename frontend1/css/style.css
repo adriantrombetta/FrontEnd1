@@ -1,0 +1,63 @@
+header{
+    background-color: rgb(226, 147, 43);
+    height: 266px;
+    width: 266px;
+    margin: 20px;
+    border: 5px solid yellow;
+    padding: 20px; 
+    border-radius: 100%;
+
+}
+
+body {
+    /* background-color: red; */
+    margin: 0%;
+    padding: 0%;
+
+}
+nav {
+    width: 50%;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    color: greenyellow;
+    font-size: 24px;
+}
+
+#caja {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(54, 168, 120);
+    align-self: auto;
+}
+
+#logo {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border: 5px solid yellow;
+} 
+
+.cajagrupo {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.grupo {
+    width: 260px;
+    height: 260px;
+    margin: 20px;
+}
+
+#cl1 {
+    background:red ;
+
+}
+
