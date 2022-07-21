@@ -23,8 +23,18 @@ header{
     height: 40px;
     background-color: green;
     border: 10px solid orange;
+    font-family: 'Pacifico', cursive;
     
 }
+
+#onda {
+    position: absolute;
+    color: white;
+    margin: 10px auto;
+    margin-left: 25px;
+    }
+
+
 
 .redes {
     position: absolute;
