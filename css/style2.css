@@ -1,4 +1,15 @@
 /* selector universal, sirve por ejemplo, para formatear los margenes */
+
+/*
+como invocar
+
+id #
+clases .
+
+header... asi nomas
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -64,6 +75,7 @@ header{
 }
 
 
+
 #top {
     position: relative;
     margin: 20px auto;
@@ -97,6 +109,8 @@ nav {
     width: 1000px;
 }
 
+
+
 .botones {
     /*position: absolute;*/
     float: left; /*convierte de horizontal a vertical */
@@ -106,6 +120,15 @@ nav {
     height: 20px;
     background: orange;
 }
+
+a .botones:hover {
+    background: rgba(100,0,255,.4);
+    }
+
+a .botones:active {
+    background: rgba(255,0,100,1);
+     }
+
 
 #top ul li {
     float: left;
@@ -122,8 +145,14 @@ aside#izq {
     top: 0;
     width: 200px;
     height: 453px;
-    background:rgb(39, 5, 66);
+    }
 
+aside#izq ul li {
+    background: #444;
+    padding: 10px;
+    margin: 2px 2px;
+    list-style: square;
+    list-style-position: inside;
 }
 
 aside#der {
@@ -140,4 +169,20 @@ aside#der {
     align-content: center;
     margin: 10px;
     background-color: rgb(221, 191, 90);
+}
+
+/*div #top ul li {
+    
+        position: relative;
+        margin: auto;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: medium;*/
+}
+
+.p {
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: aliceblue;
+    text-align: center;
 }
