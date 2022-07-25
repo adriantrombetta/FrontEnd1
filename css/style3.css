@@ -1,0 +1,84 @@
+/* este es un comentario global ctl k ctl c */
+/*
+como invocar
+
+id #
+clases .
+
+header... asi nomas
+*/
+
+*{
+    /* anulo los margenes */
+    margin: 0px;
+    padding: 0px;
+    /* quitemos estilos de lista */
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* ahora todo lo que ponga en el body ya toma estos parametros */
+    box-sizing: border-box; /* me permite que se tome los bordes estan incluidos en el ancho total de los elementos de la caja*/
+
+}
+
+.contenedor {
+    position: relative;
+    margin: auto; /*permite centrar*/
+    width: 100%;
+    height: auto;
+}
+
+.filas {
+    position: relative;
+    margin: auto; /*permite centrar*/
+    width: 100%;
+    height: auto;
+}
+
+[class*="col-"] { /*me agrupa todas las clases que empiezan con col-*/
+    float: left;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.col-12 {
+    width: 100%;
+ }
+ 
+ .col-9 {
+     width: 75%;
+ }
+
+ .col-8 {
+    width: 66.66666667%;
+}
+
+.col-7 {
+    width: 58.33333333%;
+}
+ .col-6 {
+    width: 50%;
+}
+
+.col-5 {
+   width: 41.6666666%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.6666667%;
+}
+.col-1 {
+    /* background: green; */
+    width: 8.33333333%;
+}
+
+
