@@ -33,6 +33,8 @@ header... asi nomas
     margin: auto; /*permite centrar*/
     width: 100%;
     height: auto;
+    clear: both;
+    display: table;
 }
 
 [class*="col-"] { /*me agrupa todas las clases que empiezan con col-*/
